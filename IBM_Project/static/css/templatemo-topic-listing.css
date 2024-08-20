@@ -1,0 +1,87 @@
+/* templatemo-topic-listing.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.hero-section {
+    background: #007bff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section h6 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.custom-form {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form .input-group {
+    margin-bottom: 1rem;
+}
+
+.custom-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+}
+
+.custom-form .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.custom-form button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.custom-form button:hover {
+    background-color: #0056b3;
+}
+
+.custom-form p {
+    font-size: 1.125rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section h6 {
+        font-size: 1rem;
+    }
+
+    .custom-form {
+        padding: 1rem;
+    }
+}

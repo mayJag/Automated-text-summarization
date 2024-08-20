@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Text Summarization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-topic-listing.css') }}">
+</head>
+<body id="top">
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="bi-back"></i>
+                    <span>Summarizer</span>
+                </a>
+            </div>
+        </nav>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h1 class="text-white text-center">Text Summarization</h1>
+                        <h6 class="text-center">Summarize any text quickly and easily</h6>
+                        <form method="post" action="/summarize" class="custom-form mt-4 pt-2 mb-lg-0 mb-5">
+                            <div class="input-group input-group-lg">
+                                <textarea name="text" class="form-control" rows="5" placeholder="Enter text to summarize..."></textarea>
+                                <button type="submit" class="form-control">Summarize</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
